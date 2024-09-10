@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    /* font-family: "Raleway", sans-serif; */
+    font-family: "Open Sans", sans-serif;
+}
+
+p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #87868b;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+h2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.underline {
+    width: 100px;
+    height: 2px;
+    background: #ff8b38;
+    margin: 0 auto;
+}
+
+.btns a {}
+
+/* header css */
+
+header {
+    width: 100%;
+    padding: 10px 0px;
+    background: black;
+}
+
+.nav-item .active {
+    color: white !important;
+}
+
+.nav-item {
+    margin-left: 25px;
+    position: relative;
+}
+
+.nav-item::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #ff8b38;
+    transition: 0.5s;
+}
+
+.nav-item:hover:after {
+    width: 100%;
+    transition: 0.5s;
+
+}
+
+
+
+.navbar .nav-link {
+    color: white;
+}
+
+
+/* banner */
+
+.banner-section {
+    width: 100%;
+    background: url(../img/banner.png) center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.content h1 {
+    font-size: 75px;
+    font-weight: 700;
+    color: white;
+}
+
+.content h1 span {
+    font-weight: 300;
+    color: #ff8b38;
+}
+
+.content h2 {
+    color: white;
+    width: 85%;
+}
+
+.content .underline {
+    margin: 0;
+    background: white !important;
+    width: 72px;
+    margin: 30px 0px;
+}
+
+.content p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    color: white;
+    width: 466px;
+}
+
+.btns a {
+    padding: 8px 27px;
+}
+
+.btns .btn-info {
+    border-radius: 0;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    margin-top: 30px;
+}
+
+.cus-height {
+    height: 100vh;
+}
+
+
+
+.right-inner {}
+
+.right-inner .card {
+    width: 350px;
+    border: none !important;
+}
+
+.card .card-header h3 {
+    font-size: 22px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.card .card-header h3 span {
+    color: #ff8b38;
+    text-transform: uppercase;
+}
+
+.card .card-footer {
+    background: #ff8b38;
+}
+
+.card .card-footer .form-control {
+    border: none !important;
+    background: transparent;
+}
+
+.form-control {
+    border: none !important;
+    border-bottom: 1px solid #a8a8a8 !important;
+    border-radius: 0;
+}
+
+
+/* social */
+
+.social-section {
+    width: 100%;
+    padding: 12px 0;
+    border-bottom: 2px solid #b7b7b7;
+}
+
+.social-section .title {
+    margin-top: 10px;
+}
+
+.social-section .title h4 {}
+
+.social-section .title p {
+    color: #87868b;
+    width: 92%;
+}
+
+.social-icons {
+    text-align: right;
+}
+
+.social-icons ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.social-icons ul li a {}
+
+.social-icons ul li a i {
+    font-size: 48px;
+    color: #cccccc;
+}
+
+.tab-section {
+    width: 100%;
+    height: 85vh;
+    padding: 80px 0px;
+    background-color: #f5f5f5;
+}
+
+button.nav-link {
+    width: 105px !important;
+    font-size: 15px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    background: #333333;
+    padding: 42px 20px;
+}
+
+.tab-1 {
+    border-radius: 4px 4px 0 0 !important;
+    border-bottom: 1px solid #f5f5f5
+}
+
+.tab-1:hover {
+    color: white;
+}
+
+.tab-2 {
+    border-radius: 0 !important;
+    border-bottom: 1px solid #f5f5f5
+}
+
+.tab-2:hover {
+    color: white;
+}
+
+.tab-3 {
+    border-radius: 0px 0px 4px 4px !important;
+}
+
+.tab-3:hover {
+    color: white;
+}
+
+.nav-pills .nav-link.active {
+    background: #ff8b38;
+}
+
+
+.think {
+    margin-left: 64px;
+}
+
+.think p {
+    margin-top: 30px;
+}
+
+.think .btns .btn-primary {
+    margin-top: 17px;
+    background: #ff8b38;
+    border: 1px solid #ff8b38;
+}
